@@ -26,14 +26,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="확대"/>
                                 <connections>
-                                    <action selector="btnResizeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KUb-26-1kQ"/>
+                                    <action selector="btnResizeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VNu-WZ-eB4"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xO3-x0-itl">
                                 <rect key="frame" x="256" y="617" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="swithImageOnOff:" destination="BYZ-38-t0r" eventType="valueChanged" id="wuk-gt-BNj"/>
+                                    <action selector="switchImageOnOff:" destination="BYZ-38-t0r" eventType="valueChanged" id="JkT-sl-S7o"/>
                                 </connections>
                             </switch>
                         </subviews>
@@ -42,7 +42,7 @@
                     </view>
                     <connections>
                         <outlet property="btnResize" destination="MgW-5H-foS" id="W7K-Ub-xp8"/>
-                        <outlet property="imgView" destination="g4G-HN-Xmr" id="oRI-6U-cmF"/>
+                        <outlet property="imgView" destination="g4G-HN-Xmr" id="NU7-7C-UTJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
